@@ -1,0 +1,57 @@
+
+#header {
+    background-color: darkblue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+
+#myHeader {
+    color: darkgrey;
+    font-weight: bolder;
+    font-size: 3.5em;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    height: 400px;
+    width: 300px;
+    border: black solid 5px;
+    padding-left: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 5px;
+}
+
+#mySearch {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.right {
+    height: 400px;
+    width: 100%;
+    border: black solid 5px;
+    margin-right: 10px;
+}
+
+#top {
+    width: 100%;
+    border: black solid 5px;
+    height: 125px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+#bottom {
+    height: 225px;
+    width: 100%;
+    border: black solid 5px;
+    margin-right: 10px;
+}
