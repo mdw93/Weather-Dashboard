@@ -42,7 +42,6 @@ let icon3 = document.getElementById('icon3')
 let icon4 = document.getElementById('icon4')
 let icon5 = document.getElementById('icon5')
 
-
 // api.openweathermap.org/data/2.5/forecast/daily?q={city name}&cnt={cnt}&appid={API key}
 //onlick function that searches the weather in a city and updates the webpage based on those results 
 myButton.onclick = () => {
@@ -86,16 +85,6 @@ const setStorage = (search) => {
         console.log(buttonOne.id)
       }
     }
-
-    // buttonOne.onclick = (buttonOne) => {
-    //   buttonOne = buttonOne.value;
-    //   const newSearch = `https://api.openweathermap.org/data/2.5/forecast?q=${buttonOne}&units=imperial&appid=${myKey}`;
-
-    // setStorage(buttonOne)
-
-    // myCall(newSearch)
-    // }
-
   }
 }
 
